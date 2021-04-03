@@ -1,5 +1,5 @@
 ## Context
-[HEIF](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) is a standard developed by the Moving Picture Experts Group (MPEG) for storage and sharing of images and image sequences. It offers quality, compression, and the higher color depth support than JPEG.
+[HEIF](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) is a standard developed by the Moving Picture Experts Group (MPEG) for storage and sharing of images and image sequences. It offers superior quality, compression, and the higher color depth support than JPEG.
 
 HEIF was adopted by Apple in 2017 with the introduction of iOS 11, and support on other platforms is growing.
 
