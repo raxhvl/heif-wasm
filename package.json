@@ -1,0 +1,36 @@
+{
+  "name": "heif-wasm",
+  "version": "1.0.0",
+  "description": "HEIF wasm module",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindranrahul/heif-wasm.git"
+  },
+  "keywords": [
+    "heif",
+    "wasm"
+  ],
+  "author": "Rahul Ravindran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravindranrahul/heif-wasm/issues"
+  },
+  "homepage": "https://github.com/ravindranrahul/heif-wasm#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.3.2",
+    "html-webpack-plugin": "^4.3.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "libheif-js": "^1.11.0",
+    "path-browserify": "^1.0.1"
+  }
+}

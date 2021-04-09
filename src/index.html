@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libheif WASM Demo</title>
+    <style>
+      body {
+        margin: 15px 20px;
+        text-align: center;
+        font-size: 25px;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Forked from: https://strukturag.github.io/libheif/ -->
+    <div id="form" class="hidden">
+      <div>Select HEIF image file to display:</div>
+      <input type="file" id="file" />
+    </div>
+    <select id="images" class="hidden"></select>
+    <div id="loading">Loading, please wait...</div>
+    <div id="decoding" class="hidden">Decoding, please wait...</div>
+    <div id="save-container" class="hidden">
+      <button id="save">Save image...</button>
+      <div id="downloads" class="hidden"></div>
+    </div>
+    <div id="container" class="hidden">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div id="error-format" class="hidden">
+      The selected file is not a valid HEIF file or the specific format is not
+      supported yet.<br />
+    </div>
+  </body>
+  <script src="./libheif.js"></script>
+  <script src="./libheif-post.js"></script>
+</html>
